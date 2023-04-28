@@ -6,7 +6,7 @@ import PackageDescription
 let name = "Pivot"
 let version = "V1.0.0"
 let url = "https://github.com/Packiaseelan/Pivot/releases/download/\(version)/\(name).xcframework.zip"
-let checksum = "70a31d45af01f778a3dff364cc1acfdfc1534a51178ed5a1b6b442c80f9e1b97"
+let checksum = "3ef2f8ecd8f4edefe2baaecb34f94358ec621c1dd0468bf632858a661b8936d4"
 
 let package = Package(
     name: name,
