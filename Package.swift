@@ -4,12 +4,13 @@
 import PackageDescription
 
 let name = "Pivot"
+let sdkName = "PivotSDK"
 let version = "V1.0.0"
 let url = "https://github.com/Packiaseelan/Pivot/releases/download/\(version)/\(name).xcframework.zip"
 let checksum = "c9966c3beb05add5115c2b1d4f6ee6de8ee48c67ca8c1f622003ee86130582cf"
 
 let package = Package(
-    name: name,
+    name: sdkName,
     products: [
         .library(name: name, targets: [name]),
     ],
