@@ -4,19 +4,19 @@
 import PackageDescription
 
 let name = "Pivot"
-let sdkName = "PivotSDK"
+let frameworkName = "PivotFramework"
 let version = "V1.0.0"
-let url = "https://github.com/Packiaseelan/Pivot/releases/download/\(version)/\(name).xcframework.zip"
-let checksum = "c9966c3beb05add5115c2b1d4f6ee6de8ee48c67ca8c1f622003ee86130582cf"
+let url = "https://github.com/Packiaseelan/Pivot/releases/download/\(version)/\(frameworkName).xcframework.zip"
+let checksum = "4df4f5f3fe22431da31e3df97d392791f635068557d7d716f3eec2a877a05372"
 
 let package = Package(
-    name: sdkName,
+    name: name,
     products: [
-        .library(name: name, targets: [sdkName]),
+        .library(name: name, targets: [frameworkName]),
     ],
     targets: [
-            .binaryTarget(name: sdkName, url: url, checksum: checksum),
+            .binaryTarget(name: frameworkName, url: url, checksum: checksum),
 //            .binaryTarget(name: name, path: "../output/\(name).xcframework")
-        ],
-        swiftLanguageVersions: [.v5]
+    ],
+    swiftLanguageVersions: [.v5]
 )
