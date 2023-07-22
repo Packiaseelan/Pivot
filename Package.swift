@@ -7,7 +7,7 @@ let name = "Pivot"
 let frameworkName = "PivotFramework"
 let version = "V1.0.0"
 let url = "https://github.com/Packiaseelan/Pivot/releases/download/\(version)/\(frameworkName).xcframework.zip"
-let checksum = "4df4f5f3fe22431da31e3df97d392791f635068557d7d716f3eec2a877a05372"
+let checksum = "f4209cc1140d1f23cb9147371b315c29f002987e230a92a28f8c1d82c3889c4f"
 
 let package = Package(
     name: name,
